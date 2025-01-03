@@ -12,6 +12,7 @@ public class test {
 		
 		test t =  new test();
 		t.add();
+		t.sub();
 	}
 	
 	public void add()
@@ -24,6 +25,17 @@ public class test {
 		
 		System.out.println("Addition of a and b is : "+c);
 	}
-	
+
+	public void sub()
+	{
+		int a=20;
+		
+		int b=10;
+		
+		int c=a-b;
+		
+		System.out.println("Substraction of a and b is : "+c);
+	}
+
 
 }
